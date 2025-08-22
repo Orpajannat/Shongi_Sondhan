@@ -67,10 +67,10 @@
                     <img src="assets/cool-neon-blue-profile-picture-u9y9ydo971k9mdcf.jpg" alt="Ayesha Rahman" class="rounded-circle">
                 </div>
                 <div class="profile-info">
-                    <h1 class="profile-name">Ayesha Rahman</h1>
-                    <p class="profile-location">28, Dhaka, Bangladesh</p>
+                    <h1 class="profile-name" style="color: #aa0e2f;">Ayesha Rahman</h1>
+                    <p class="profile-location" style="color: #6b2a1a;">28, Dhaka, Bangladesh</p>
                 </div>
-                <button class="btn connect-btn">
+                <button class="btn connect-btn" style="background: #aa0e2f; color: white;">
                     <span>Connect</span>
                 </button>
             </div>
@@ -78,9 +78,9 @@
             <!-- Profile Navigation Tabs -->
             <div class="profile-tabs">
                 <div class="tab-nav">
-                    <a href="#about" class="tab-link active" data-tab="about">About</a>
-                    <a href="#lifestyle" class="tab-link" data-tab="lifestyle">Lifestyle</a>
-                    <a href="#preferences" class="tab-link" data-tab="preferences">Preferences</a>
+                    <a href="#about" class="tab-link active" data-tab="about" style="color: #aa0e2f;">About</a>
+                    <a href="#lifestyle" class="tab-link" data-tab="lifestyle" style="color: #6b2a1a;">Lifestyle</a>
+                    <a href="#preferences" class="tab-link" data-tab="preferences" style="color: #6b2a1a;">Preferences</a>
                 </div>
             </div>
 
@@ -88,78 +88,78 @@
             <div class="tab-content">
                 <!-- About Tab -->
                 <div id="about" class="tab-pane active">
-                    <h2 class="tab-title">About</h2>
+                    <h2 class="tab-title" style="color: #aa0e2f;">About</h2>
                     <div class="info-grid">
                         <div class="info-item">
-                            <p class="info-label">Age</p>
-                            <p class="info-value">28</p>
+                            <p class="info-label" style="color: #aa0e2f;">Age</p>
+                            <p class="info-value" style="color: #6b2a1a;">28</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Height</p>
-                            <p class="info-value">5'6"</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Height</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">5'6"</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Religion</p>
-                            <p class="info-value">Islam</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 700; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Religion</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Islam</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Mother Tongue</p>
-                            <p class="info-value">Bengali</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Mother Tongue</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Bengali</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Marital Status</p>
-                            <p class="info-value">Never Married</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Marital Status</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Never Married</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Children</p>
-                            <p class="info-value">No</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Children</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">No</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Education</p>
-                            <p class="info-value">Masters in Business Administration</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Education</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Masters in Business Administration</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Profession</p>
-                            <p class="info-value">Marketing Manager</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 16px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Profession</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Marketing Manager</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Lifestyle Tab -->
                 <div id="lifestyle" class="tab-pane">
-                    <h2 class="tab-title">Lifestyle</h2>
+                    <h2 class="tab-title" style="color: #aa0e2f;">Lifestyle</h2>
                     <div class="info-grid">
-                        <div class="info-item">
-                            <p class="info-label">Diet</p>
-                            <p class="info-value">Non-Vegetarian</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Diet</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Non-Vegetarian</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Smoking</p>
-                            <p class="info-value">Non-Smoker</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Smoking</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Non-Smoker</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Drinking</p>
-                            <p class="info-value">Social Drinker</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Drinking</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Social Drinker</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Hobbies</p>
-                            <p class="info-value">Reading, Painting, Traveling</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Hobbies</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Reading, Painting, Traveling</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Interests</p>
-                            <p class="info-value">Music, Movies, Food</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Interests</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Music, Movies, Food</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Personality</p>
-                            <p class="info-value">Introverted</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Personality</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Introverted</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Values</p>
-                            <p class="info-value">Family, Career, Personal Growth</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Values</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">Family, Career, Personal Growth</p>
                         </div>
-                        <div class="info-item">
-                            <p class="info-label">Ideal Date</p>
-                            <p class="info-value">A quiet dinner or a walk in the park</p>
+                        <div class="info-item" style="background: #fde8da; border: 2px solid #fde8da; border-radius: 16px; padding: 20px; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)'; this.style.borderColor='#aa0e2f'; this.style.boxShadow='0 16px 48px rgba(170, 14, 47, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#fde8da'; this.style.boxShadow='none';">
+                            <p class="info-label" style="color: #aa0e2f; font-size: 14px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Ideal Date</p>
+                            <p class="info-value" style="color: #6b2a1a; font-size: 18px; font-weight: 700; margin-bottom: 0;">A quiet dinner or a walk in the park</p>
                         </div>
                     </div>
                 </div>
