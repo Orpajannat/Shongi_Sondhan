@@ -12,9 +12,9 @@
     <!-- Custom CSS -->
     <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
-<body class="profile-detail-page">
+<body class="profile-detail-page" style="background: #fbf4ef;">
     <!-- Top Navigation Bar -->
-    <nav class="navbar navbar-expand-lg fixed-top dashboard-navbar">
+    <nav class="navbar navbar-expand-lg fixed-top dashboard-navbar" style="background: linear-gradient(180deg, rgba(170, 14, 47, 0.1), rgba(166, 14, 45, 0.05), rgba(107, 42, 26, 0.03));">
         <div class="container-fluid px-5">
             <!-- Logo and Brand -->
             <div class="navbar-brand d-flex align-items-center gap-3">
@@ -36,23 +36,23 @@
             <div class="d-flex flex-grow-1 justify-content-end gap-5">
                 <!-- Navigation Links -->
                 <div class="d-flex align-items-center gap-5">
-                    <a class="nav-link" href="dashboard.php">Home</a>
-                    <a class="nav-link" href="search.php">Search</a>
-                    <a class="nav-link" href="ai-matches.php">AI Matches</a>
-                    <a class="nav-link" href="messages.php">Messages</a>
-                    <a class="nav-link active" href="profile-detail.php">Profile</a>
-                    <a class="nav-link" href="my-profile.php">My Profile</a>
+                    <a class="nav-link" href="dashboard.php" style="color: #6b2a1a; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.color='#aa0e2f';" onmouseout="this.style.transform='translateY(0)'; this.style.color='#6b2a1a';">Home</a>
+                    <a class="nav-link" href="search.php" style="color: #6b2a1a; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.color='#aa0e2f';" onmouseout="this.style.transform='translateY(0)'; this.style.color='#6b2a1a';">Search</a>
+                    <a class="nav-link" href="ai-matches.php" style="color: #6b2a1a; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.color='#aa0e2f';" onmouseout="this.style.transform='translateY(0)'; this.style.color='#6b2a1a';">AI Matches</a>
+                    <a class="nav-link" href="messages.php" style="color: #6b2a1a; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.color='#aa0e2f';" onmouseout="this.style.transform='translateY(0)'; this.style.color='#6b2a1a';">Messages</a>
+                    <a class="nav-link active" href="profile-detail.php" style="color: #aa0e2f; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.color='#a60e2d';" onmouseout="this.style.transform='translateY(0)'; this.style.color='#aa0e2f';">Profile</a>
+                    <a class="nav-link" href="my-profile.php" style="color: #6b2a1a; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.color='#aa0e2f';" onmouseout="this.style.transform='translateY(0)'; this.style.color='#6b2a1a';">My Profile</a>
                 </div>
                 
                 <!-- Notification Bell Button -->
-                <button class="btn notification-btn d-flex align-items-center justify-content-center rounded-3 h-10 px-2-5">
-                    <i class="bi bi-bell text-dark"></i>
+                <button class="btn notification-btn d-flex align-items-center justify-content-center rounded-3 h-10 px-2-5" style="background: #fde8da; border: 2px solid #fde8da; color: #aa0e2f; transition: all 0.3s ease;" onmouseover="this.style.background='#aa0e2f'; this.style.color='white'; this.style.transform='scale(1.1)';" onmouseout="this.style.background='#fde8da'; this.style.color='#aa0e2f'; this.style.transform='scale(1)';">
+                    <i class="bi bi-bell"></i>
                 </button>
                 
                 <!-- Profile Avatar -->
-                <div class="profile-avatar-container">
-                    <img src="" alt="Profile" class="rounded-circle">
-                    <div class="online-indicator"></div>
+                <div class="profile-avatar-container" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
+                    <img src="assets/cool-neon-blue-profile-picture-u9y9ydo971k9mdcf.jpg" alt="Profile" class="rounded-circle" style="width: 40px; height: 40px; object-fit: cover; border: 2px solid #fde8da;">
+                    <div class="online-indicator" style="background: #28a745; border: 2px solid white;"></div>
                 </div>
             </div>
         </div>
