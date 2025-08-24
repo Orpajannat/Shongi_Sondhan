@@ -44,7 +44,7 @@ function loadProfileData() {
     // For now, we'll use localStorage or default values
     
     const profileData = JSON.parse(localStorage.getItem('profileData')) || {
-        name: 'Ayesha Rahman',
+        name: 'Jannat Orpa',
         age: 28,
         location: 'Dhaka, Bangladesh',
         education: 'Bachelor\'s in Computer Science',
